@@ -14,7 +14,7 @@ df = load_data()
 st.title("🎓 Student Login Portal")
 
 student_id = st.text_input("Enter your Student ID")
-mobile_no = st.text_input("Enter your Mobile No")
+mobile_no = st.text_input("Enter your Mobile No (starting with 880)")
 
 if st.button("Get Credentials"):
     if not student_id or not mobile_no:
